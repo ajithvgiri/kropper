@@ -1,4 +1,4 @@
-package com.ajithvgiri.kropper
+package com.ajithvgiri.kropperdemo
 
 import org.junit.Test
 
