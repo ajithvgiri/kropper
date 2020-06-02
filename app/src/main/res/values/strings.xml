@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kropper</string>
+    <string name="title_select_picture">Select Picture</string>
 </resources>
