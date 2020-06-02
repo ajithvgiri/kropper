@@ -14,4 +14,10 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_background_day</item>
+    </style>
+
 </resources>
