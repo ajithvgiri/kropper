@@ -1,6 +1,6 @@
 ![Kropper](https://i.imgur.com/lstHevl.png)
-
-Kropper is a android library,which is used to cropping feature for your mobile app, This app cloned from **Android-Image-Cropper** & I redesigned cropping view as per WhatsApp's croping view that's all.
+#
+Kropper is a android library,which is used to cropping feature for your mobile app, This app cloned from **Android-Image-Cropper** & I redesigned cropping view as per WhatsApp's cropping view that's all.
 # Demo
 
 # Setup
@@ -60,20 +60,20 @@ Start CropImageActivity using builder pattern from your activity
 #### Java
 add below code in your activity
 ``` java
-`   // start cropping activity for pre-acquired image saved on the device
-CropImage.activity(imageUri).start(this);
+   // start cropping activity for pre-acquired image saved on the device
+   CropImage.activity(imageUri).start(this);
 
-@Override
-public void onActivityResult(int requestCode, int resultCode, Intent data) {
-  if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
-    CropImage.ActivityResult result = CropImage.getActivityResult(data);
-    if (resultCode == RESULT_OK) {
+   @Override
+   public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
+     CropImage.ActivityResult result = CropImage.getActivityResult(data);
+     if (resultCode == RESULT_OK) {
       Uri resultUri = result.getUri();
-    } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
+     } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
       Exception error = result.getError();
+     }
     }
-      }
-    }
+   }
 ```
 ### Screenshots
 ![Screenshots](https://i.imgur.com/tKvW5cA.png)
