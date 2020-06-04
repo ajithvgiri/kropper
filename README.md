@@ -1,4 +1,5 @@
 ![Kropper](https://i.imgur.com/lstHevl.png)
+
 Kropper is a android library,which is used to cropping feature for your mobile app, This app cloned from **Android-Image-Cropper** & I redesigned cropping view as per WhatsApp's croping view that's all.
 # Demo
 
