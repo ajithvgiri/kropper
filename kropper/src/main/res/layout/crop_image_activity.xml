@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ajithvgiri.kropper.CropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/imageButtonRotate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/rotate_right"
+            android:backgroundTint="@android:color/black"
+            android:background="@android:color/black"
+            android:src="@drawable/ic_rotate_right" />
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/done"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

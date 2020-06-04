@@ -1,2 +1,3 @@
+include ':kropper'
 include ':app'
 rootProject.name = "Kropper"

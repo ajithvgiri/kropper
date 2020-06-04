@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="flip">Flip</string>
+    <string name="flip_horizontally">Flip Horizontally</string>
+    <string name="flip_vertically">Flip Vertically</string>
+    <string name="menu_crop">Crop</string>
+
+    <string name="crop_image_activity_title"></string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+</resources>
