@@ -2,7 +2,7 @@
 #
 Kropper is a android library,which is used to cropping feature for your mobile app, This app cloned from **Android-Image-Cropper** & I redesigned cropping view as per WhatsApp's cropping view that's all.
 # Demo
-
+<a href="https://play.google.com/store/apps/details?id=com.ajithvgiri.kropper"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="185" height="70"/></a>
 # Setup
 ##### 1. Provide the gradle dependency
 Add it in your root build.gradle at the end of repositories:
